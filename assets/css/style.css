@@ -1,24 +1,26 @@
-* {
-    margin: 0;
- width: 400px;
+.btn {
+    font-size: 30px;
+    padding: 15px;
+    text-transform: capitalize;
+    min-width: 50px;
+    width: 100%;
+    max-width: 300px;
+    height: 70px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-.wrapper {
-    width: 50vw;
-    box-sizing: border-box;
-    min-height: 100px;
-    height: 50vw;
-    max-height: 800px;
-    border: 3px solid lightseagreen;
-    padding: 10px;
-    overflow-y: scroll;
-
-}
-
-.inner {
-    box-sizing: border-box;
-    /* width: 800px; */
-    /* height: 300px; */
-    border: inherit;
-    border-color: lightgreen;
+.container {
+    color: white;
+    border: 5px solid crimson;
+    padding: 15px;
+    height: 55vh;
+    font-size: 30px;
+    background-color: darkgray;
+    background-image: url(./../../img/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
 }
