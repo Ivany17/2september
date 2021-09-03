@@ -5,7 +5,7 @@
 
 .container {
     font-family: Arial, Helvetica, sans-serif;
-    height: 1000px;
+    height: 943px;
     background-image: url(./../practic/img/beachshowcase.jpg);
     text-align: center;
     background-repeat: no-repeat;
@@ -16,8 +16,8 @@
 .main-text {
     color: #926239;
     font-size: 50px;
-    line-height: 40px;
-    padding-top: 43vh;
+    line-height: 35px;
+    padding-top: 42vh;
     text-transform: capitalize;
 
     overflow: hidden;
@@ -39,9 +39,9 @@
     margin: 0 auto;
     color: #926239;
     border: #926239 1px solid;
-    padding: 13px 20px;
+    padding: 14px 19px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 19px;
     cursor: pointer;
 }
 
@@ -57,8 +57,8 @@
     color: white;
     font-size: 17px;
     text-align: center;
-    padding: 11px;
-    line-height: 28px;
+    padding: 20px;
+    line-height: 27px;
 }
 
 .s-container {
@@ -67,34 +67,38 @@
     color: #926239;
     font-size: 17px;
     text-align: center;
-    padding: 11px;
-    line-height: 28px;
+    padding: 20px;
+    line-height: 27px;
 }
 
 .section {
     font-family: Arial, Helvetica, sans-serif;
-    display: -webkit-box;
+    display: inline-block;
     width: 100%;
 }
 
 .box-brown {
+    display: inline-block;
     box-sizing: border-box;
     width: 33.33%;
     background-color: #926239;
     color: white;
     font-size: 17px;
+    vertical-align: top;
     line-height: 27px;
-    padding: 23px;
+    padding: 20px;
 }
 
 .box-white {
+    display: inline-block;
     box-sizing: border-box;
     width: 33.33%;
     background-color: white;
     color: #926239;
     font-size: 17px;
+    vertical-align: top;
     line-height: 27px;
-    padding: 23px;
+    padding: 20px;
 }
 
 
